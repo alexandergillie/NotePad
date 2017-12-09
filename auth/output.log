@@ -1,0 +1,911 @@
+nohup: ignoring input
+before / Route
+/login Route
+[0mGET /login [36m304 [0m17.782 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m2.197 ms - -[0m
+[0mGET /favicon.ico [31m500 [0m3.574 ms - 2394[0m
+Error: Failed to lookup view "error" in views directory "/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/views"
+    at EventEmitter.render (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/application.js:579:17)
+    at ServerResponse.render (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/response.js:961:7)
+    at /opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/app.js:70:9
+    at Layer.handle_error (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/index.js:310:13)
+    at /opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/index.js:330:12)
+    at IncomingMessage.next (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/index.js:271:10)
+    at done (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/response.js:956:25)
+    at EventEmitter.render (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/application.js:581:14)
+    at ServerResponse.render (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/response.js:961:7)
+    at /opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/app.js:59:13
+    at Layer.handle_error (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/index.js:310:13)
+    at /opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/index.js:330:12)
+/signup Route
+[0mGET /signup [32m200 [0m1.605 ms - 770[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.937 ms - -[0m
+[0mGET /favicon.ico [31m500 [0m1.041 ms - 2394[0m
+Error: Failed to lookup view "error" in views directory "/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/views"
+    at EventEmitter.render (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/application.js:579:17)
+    at ServerResponse.render (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/response.js:961:7)
+    at /opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/app.js:70:9
+    at Layer.handle_error (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/index.js:310:13)
+    at /opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/index.js:330:12)
+    at IncomingMessage.next (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/index.js:271:10)
+    at done (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/response.js:956:25)
+    at EventEmitter.render (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/application.js:581:14)
+    at ServerResponse.render (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/response.js:961:7)
+    at /opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/app.js:59:13
+    at Layer.handle_error (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/index.js:310:13)
+    at /opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/index.js:330:12)
+Begin exports.signup
+after new user exports.signup
+after hashing user exports.signup
+after email user exports.signup
+(node:21874) DeprecationWarning: Mongoose: mpromise (mongoose's default promise library) is deprecated, plug in your own promise library instead: http://mongoosejs.com/docs/promises.html
+In exports.signup
+null
+[0mPOST /signup [36m302 [0m41.942 ms - 46[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2018-01-06T14:04:40.637Z,
+     originalMaxAge: 2627999999,
+     httpOnly: true },
+  user: '5a28bdd84a073c7255253e24',
+  username: 'billy',
+  msg: 'Authenticated as billy' }
+/ Route if user
+[0mGET / [32m200 [0m4.769 ms - 784[0m
+[0mGET /stylesheets/style.css [36m304 [0m2.548 ms - -[0m
+[0mGET /javascripts/my_app.js [36m304 [0m2.931 ms - -[0m
+[0mGET /user/profile [32m200 [0m9.904 ms - 152[0m
+[0mGET /favicon.ico [31m500 [0m1.181 ms - 2394[0m
+Error: Failed to lookup view "error" in views directory "/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/views"
+    at EventEmitter.render (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/application.js:579:17)
+    at ServerResponse.render (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/response.js:961:7)
+    at /opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/app.js:70:9
+    at Layer.handle_error (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/index.js:310:13)
+    at /opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/index.js:330:12)
+    at IncomingMessage.next (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/index.js:271:10)
+    at done (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/response.js:956:25)
+    at EventEmitter.render (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/application.js:581:14)
+    at ServerResponse.render (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/response.js:961:7)
+    at /opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/app.js:59:13
+    at Layer.handle_error (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/index.js:310:13)
+    at /opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/index.js:330:12)
+/logout Route
+[0mGET /logout [36m302 [0m3.067 ms - 56[0m
+/login Route
+[0mGET /login [36m304 [0m2.128 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.626 ms - -[0m
+[0mGET /favicon.ico [31m500 [0m1.837 ms - 2394[0m
+Error: Failed to lookup view "error" in views directory "/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/views"
+    at EventEmitter.render (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/application.js:579:17)
+    at ServerResponse.render (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/response.js:961:7)
+    at /opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/app.js:70:9
+    at Layer.handle_error (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/index.js:310:13)
+    at /opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/index.js:330:12)
+    at IncomingMessage.next (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/index.js:271:10)
+    at done (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/response.js:956:25)
+    at EventEmitter.render (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/application.js:581:14)
+    at ServerResponse.render (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/response.js:961:7)
+    at /opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/app.js:59:13
+    at Layer.handle_error (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/index.js:310:13)
+    at /opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/index.js:330:12)
+login
+{ _id: 5a28bdd84a073c7255253e24,
+  email: 'billy@yahoo.com',
+  hashed_password: 'R3mNEq4xzlptnJ3d7HvJ8qJ//6Qkt/KhVPoOJmkJct4=',
+  username: 'billy',
+  __v: 0 }
+[0mPOST /login [36m302 [0m11.651 ms - 46[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2018-01-06T14:04:52.198Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true },
+  user: '5a28bdd84a073c7255253e24',
+  username: 'billy',
+  msg: 'Authenticated as billy' }
+/ Route if user
+[0mGET / [36m304 [0m3.529 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m2.076 ms - -[0m
+[0mGET /javascripts/my_app.js [36m304 [0m1.384 ms - -[0m
+[0mGET /user/profile [36m304 [0m1.672 ms - -[0m
+[0mGET /favicon.ico [31m500 [0m1.285 ms - 2394[0m
+Error: Failed to lookup view "error" in views directory "/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/views"
+    at EventEmitter.render (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/application.js:579:17)
+    at ServerResponse.render (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/response.js:961:7)
+    at /opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/app.js:70:9
+    at Layer.handle_error (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/index.js:310:13)
+    at /opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/index.js:330:12)
+    at IncomingMessage.next (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/index.js:271:10)
+    at done (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/response.js:956:25)
+    at EventEmitter.render (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/application.js:581:14)
+    at ServerResponse.render (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/response.js:961:7)
+    at /opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/app.js:59:13
+    at Layer.handle_error (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/index.js:310:13)
+    at /opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/index.js:330:12)
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2018-01-06T14:07:53.775Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true } }
+/ Route else user
+[0mGET /? [36m302 [0m1.845 ms - 56[0m
+/login Route
+[0mGET /login [32m200 [0m0.796 ms - 735[0m
+[0mGET /stylesheets/style.css [32m200 [0m2.288 ms - 410[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2018-01-07T02:10:05.563Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true } }
+/ Route else user
+[0mGET /? [36m302 [0m2.724 ms - 56[0m
+/login Route
+[0mGET /login [32m200 [0m0.767 ms - 735[0m
+[0mGET /stylesheets/style.css [32m200 [0m1.301 ms - 410[0m
+[0mGET /favicon.ico [31m500 [0m1.924 ms - 2394[0m
+Error: Failed to lookup view "error" in views directory "/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/views"
+    at EventEmitter.render (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/application.js:579:17)
+    at ServerResponse.render (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/response.js:961:7)
+    at /opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/app.js:70:9
+    at Layer.handle_error (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/index.js:310:13)
+    at /opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/index.js:330:12)
+    at IncomingMessage.next (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/index.js:271:10)
+    at done (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/response.js:956:25)
+    at EventEmitter.render (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/application.js:581:14)
+    at ServerResponse.render (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/response.js:961:7)
+    at /opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/app.js:59:13
+    at Layer.handle_error (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/index.js:310:13)
+    at /opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/index.js:330:12)
+[0mPOST /login [36m302 [0m3.450 ms - 56[0m
+/login Route
+[0mGET /login [32m200 [0m0.741 ms - 736[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.019 ms - -[0m
+[0mGET /favicon.ico [31m500 [0m1.582 ms - 2394[0m
+Error: Failed to lookup view "error" in views directory "/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/views"
+    at EventEmitter.render (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/application.js:579:17)
+    at ServerResponse.render (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/response.js:961:7)
+    at /opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/app.js:70:9
+    at Layer.handle_error (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/index.js:310:13)
+    at /opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/index.js:330:12)
+    at IncomingMessage.next (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/index.js:271:10)
+    at done (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/response.js:956:25)
+    at EventEmitter.render (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/application.js:581:14)
+    at ServerResponse.render (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/response.js:961:7)
+    at /opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/app.js:59:13
+    at Layer.handle_error (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/index.js:310:13)
+    at /opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/index.js:330:12)
+/signup Route
+[0mGET /signup [32m200 [0m0.956 ms - 785[0m
+[0mGET /stylesheets/style.css [36m304 [0m3.449 ms - -[0m
+[0mGET /favicon.ico [31m500 [0m0.813 ms - 2394[0m
+Error: Failed to lookup view "error" in views directory "/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/views"
+    at EventEmitter.render (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/application.js:579:17)
+    at ServerResponse.render (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/response.js:961:7)
+    at /opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/app.js:70:9
+    at Layer.handle_error (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/index.js:310:13)
+    at /opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/index.js:330:12)
+    at IncomingMessage.next (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/index.js:271:10)
+    at done (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/response.js:956:25)
+    at EventEmitter.render (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/application.js:581:14)
+    at ServerResponse.render (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/response.js:961:7)
+    at /opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/app.js:59:13
+    at Layer.handle_error (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/index.js:310:13)
+    at /opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/index.js:330:12)
+Begin exports.signup
+after new user exports.signup
+after hashing user exports.signup
+after email user exports.signup
+In exports.signup
+null
+[0mPOST /signup [36m302 [0m4.389 ms - 46[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2018-01-07T02:10:19.908Z,
+     originalMaxAge: 2627999999,
+     httpOnly: true },
+  msg: 'Authenticated as a',
+  user: '5a2967eb4a073c7255253e25',
+  username: 'a' }
+/ Route if user
+[0mGET / [32m200 [0m1.752 ms - 776[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.783 ms - -[0m
+[0mGET /javascripts/my_app.js [32m200 [0m0.784 ms - 401[0m
+[0mGET /user/profile [32m200 [0m2.302 ms - 140[0m
+[0mGET /favicon.ico [31m500 [0m0.795 ms - 2394[0m
+Error: Failed to lookup view "error" in views directory "/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/views"
+    at EventEmitter.render (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/application.js:579:17)
+    at ServerResponse.render (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/response.js:961:7)
+    at /opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/app.js:70:9
+    at Layer.handle_error (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/index.js:310:13)
+    at /opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/index.js:330:12)
+    at IncomingMessage.next (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/index.js:271:10)
+    at done (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/response.js:956:25)
+    at EventEmitter.render (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/application.js:581:14)
+    at ServerResponse.render (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/response.js:961:7)
+    at /opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/app.js:59:13
+    at Layer.handle_error (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/index.js:310:13)
+    at /opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/index.js:330:12)
+/user Route
+[0mGET /user [32m200 [0m2.789 ms - 1222[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.739 ms - -[0m
+[0mGET /javascripts/my_app.js [36m304 [0m0.647 ms - -[0m
+[0mGET /user/profile [36m304 [0m1.494 ms - -[0m
+[0mGET /favicon.ico [31m500 [0m0.701 ms - 2394[0m
+Error: Failed to lookup view "error" in views directory "/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/views"
+    at EventEmitter.render (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/application.js:579:17)
+    at ServerResponse.render (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/response.js:961:7)
+    at /opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/app.js:70:9
+    at Layer.handle_error (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/index.js:310:13)
+    at /opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/index.js:330:12)
+    at IncomingMessage.next (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/index.js:271:10)
+    at done (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/response.js:956:25)
+    at EventEmitter.render (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/application.js:581:14)
+    at ServerResponse.render (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/response.js:961:7)
+    at /opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/app.js:59:13
+    at Layer.handle_error (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/index.js:310:13)
+    at /opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/index.js:330:12)
+[0mPOST /user/update [36m302 [0m4.581 ms - 54[0m
+/user Route
+[0mGET /user [32m200 [0m0.976 ms - 1217[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.525 ms - -[0m
+[0mGET /javascripts/my_app.js [36m304 [0m0.671 ms - -[0m
+[0mGET /user/profile [32m200 [0m1.996 ms - 156[0m
+[0mGET /favicon.ico [31m500 [0m1.380 ms - 2394[0m
+Error: Failed to lookup view "error" in views directory "/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/views"
+    at EventEmitter.render (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/application.js:579:17)
+    at ServerResponse.render (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/response.js:961:7)
+    at /opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/app.js:70:9
+    at Layer.handle_error (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/index.js:310:13)
+    at /opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/index.js:330:12)
+    at IncomingMessage.next (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/index.js:271:10)
+    at done (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/response.js:956:25)
+    at EventEmitter.render (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/application.js:581:14)
+    at ServerResponse.render (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/response.js:961:7)
+    at /opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/app.js:59:13
+    at Layer.handle_error (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/index.js:310:13)
+    at /opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/index.js:330:12)
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2018-01-07T02:10:35.032Z,
+     originalMaxAge: 2627999999,
+     httpOnly: true },
+  msg: 'User Updated.',
+  user: '5a2967eb4a073c7255253e25',
+  username: 'a',
+  color: 'green' }
+/ Route if user
+[0mGET / [32m200 [0m2.075 ms - 776[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.742 ms - -[0m
+[0mGET /javascripts/my_app.js [36m304 [0m0.611 ms - -[0m
+[0mGET /user/profile [36m304 [0m1.801 ms - -[0m
+[0mGET /favicon.ico [31m500 [0m0.789 ms - 2394[0m
+Error: Failed to lookup view "error" in views directory "/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/views"
+    at EventEmitter.render (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/application.js:579:17)
+    at ServerResponse.render (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/response.js:961:7)
+    at /opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/app.js:70:9
+    at Layer.handle_error (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/index.js:310:13)
+    at /opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/index.js:330:12)
+    at IncomingMessage.next (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/index.js:271:10)
+    at done (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/response.js:956:25)
+    at EventEmitter.render (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/application.js:581:14)
+    at ServerResponse.render (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/response.js:961:7)
+    at /opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/app.js:59:13
+    at Layer.handle_error (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/index.js:310:13)
+    at /opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/index.js:330:12)
+/logout Route
+[0mGET /logout [36m302 [0m1.538 ms - 56[0m
+/login Route
+[0mGET /login [32m200 [0m2.016 ms - 721[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.710 ms - -[0m
+[0mGET /favicon.ico [31m500 [0m0.797 ms - 2394[0m
+Error: Failed to lookup view "error" in views directory "/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/views"
+    at EventEmitter.render (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/application.js:579:17)
+    at ServerResponse.render (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/response.js:961:7)
+    at /opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/app.js:70:9
+    at Layer.handle_error (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/index.js:310:13)
+    at /opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/index.js:330:12)
+    at IncomingMessage.next (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/index.js:271:10)
+    at done (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/response.js:956:25)
+    at EventEmitter.render (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/application.js:581:14)
+    at ServerResponse.render (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/response.js:961:7)
+    at /opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/app.js:59:13
+    at Layer.handle_error (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/index.js:310:13)
+    at /opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/index.js:330:12)
+login
+{ _id: 5a2967eb4a073c7255253e25,
+  email: 'a@a.com',
+  hashed_password: 'ypeBEsobvcr6wjGzmiPcTaeG7/gUfE5yuYB3ha/uSLs=',
+  username: 'a',
+  __v: 0,
+  color: 'green' }
+[0mPOST /login [36m302 [0m3.013 ms - 46[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2018-01-07T02:10:42.982Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true },
+  user: '5a2967eb4a073c7255253e25',
+  username: 'a',
+  msg: 'Authenticated as a',
+  color: 'green' }
+/ Route if user
+[0mGET / [32m200 [0m0.975 ms - 781[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.835 ms - -[0m
+[0mGET /javascripts/my_app.js [36m304 [0m0.999 ms - -[0m
+[0mGET /user/profile [36m304 [0m2.328 ms - -[0m
+[0mGET /favicon.ico [31m500 [0m0.836 ms - 2394[0m
+Error: Failed to lookup view "error" in views directory "/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/views"
+    at EventEmitter.render (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/application.js:579:17)
+    at ServerResponse.render (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/response.js:961:7)
+    at /opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/app.js:70:9
+    at Layer.handle_error (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/index.js:310:13)
+    at /opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/index.js:330:12)
+    at IncomingMessage.next (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/index.js:271:10)
+    at done (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/response.js:956:25)
+    at EventEmitter.render (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/application.js:581:14)
+    at ServerResponse.render (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/response.js:961:7)
+    at /opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/app.js:59:13
+    at Layer.handle_error (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/index.js:310:13)
+    at /opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/index.js:330:12)
+/user Route
+[0mGET /user [32m200 [0m1.491 ms - 1222[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.737 ms - -[0m
+[0mGET /javascripts/my_app.js [36m304 [0m0.588 ms - -[0m
+[0mGET /user/profile [36m304 [0m1.247 ms - -[0m
+[0mGET /favicon.ico [31m500 [0m1.160 ms - 2394[0m
+Error: Failed to lookup view "error" in views directory "/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/views"
+    at EventEmitter.render (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/application.js:579:17)
+    at ServerResponse.render (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/response.js:961:7)
+    at /opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/app.js:70:9
+    at Layer.handle_error (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/index.js:310:13)
+    at /opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/index.js:330:12)
+    at IncomingMessage.next (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/index.js:271:10)
+    at done (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/response.js:956:25)
+    at EventEmitter.render (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/application.js:581:14)
+    at ServerResponse.render (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/response.js:961:7)
+    at /opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/app.js:59:13
+    at Layer.handle_error (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/index.js:310:13)
+    at /opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/index.js:330:12)
+[0mPOST /user/delete [36m302 [0m3.578 ms - 56[0m
+/login Route
+[0mGET /login [32m200 [0m0.707 ms - 721[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.721 ms - -[0m
+[0mGET /favicon.ico [31m500 [0m0.795 ms - 2394[0m
+Error: Failed to lookup view "error" in views directory "/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/views"
+    at EventEmitter.render (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/application.js:579:17)
+    at ServerResponse.render (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/response.js:961:7)
+    at /opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/app.js:70:9
+    at Layer.handle_error (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/index.js:310:13)
+    at /opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/index.js:330:12)
+    at IncomingMessage.next (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/index.js:271:10)
+    at done (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/response.js:956:25)
+    at EventEmitter.render (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/application.js:581:14)
+    at ServerResponse.render (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/response.js:961:7)
+    at /opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/app.js:59:13
+    at Layer.handle_error (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/index.js:310:13)
+    at /opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/index.js:330:12)
+[0mPOST /login [36m302 [0m1.428 ms - 56[0m
+/login Route
+[0mGET /login [32m200 [0m0.665 ms - 736[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.634 ms - -[0m
+[0mGET /favicon.ico [31m500 [0m0.782 ms - 2394[0m
+Error: Failed to lookup view "error" in views directory "/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/views"
+    at EventEmitter.render (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/application.js:579:17)
+    at ServerResponse.render (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/response.js:961:7)
+    at /opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/app.js:70:9
+    at Layer.handle_error (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/index.js:310:13)
+    at /opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/index.js:330:12)
+    at IncomingMessage.next (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/index.js:271:10)
+    at done (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/response.js:956:25)
+    at EventEmitter.render (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/application.js:581:14)
+    at ServerResponse.render (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/response.js:961:7)
+    at /opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/app.js:59:13
+    at Layer.handle_error (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/index.js:310:13)
+    at /opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/index.js:330:12)
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2018-01-07T07:40:54.145Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true } }
+/ Route else user
+[0mGET / [36m302 [0m0.998 ms - 28[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2018-01-06T14:04:52.906Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true },
+  user: '5a28bdd84a073c7255253e24',
+  username: 'billy',
+  msg: 'Authenticated as billy' }
+/ Route if user
+[0mGET / [36m304 [0m1.083 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.383 ms - -[0m
+[0mGET /javascripts/my_app.js [36m304 [0m1.356 ms - -[0m
+[0mGET /user/profile [36m304 [0m2.714 ms - -[0m
+[0mGET /favicon.ico [31m500 [0m0.851 ms - 2394[0m
+Error: Failed to lookup view "error" in views directory "/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/views"
+    at EventEmitter.render (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/application.js:579:17)
+    at ServerResponse.render (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/response.js:961:7)
+    at /opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/app.js:70:9
+    at Layer.handle_error (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/index.js:310:13)
+    at /opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/index.js:330:12)
+    at IncomingMessage.next (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/index.js:271:10)
+    at done (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/response.js:956:25)
+    at EventEmitter.render (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/application.js:581:14)
+    at ServerResponse.render (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/response.js:961:7)
+    at /opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/app.js:59:13
+    at Layer.handle_error (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/index.js:310:13)
+    at /opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/index.js:330:12)
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2018-01-07T16:01:20.392Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true },
+  user: '5a28bdd84a073c7255253e24',
+  username: 'billy',
+  msg: 'Authenticated as billy' }
+/ Route if user
+[0mGET / [36m304 [0m0.897 ms - -[0m
+/logout Route
+[0mGET /logout [36m302 [0m0.845 ms - 56[0m
+/login Route
+[0mGET /login [32m200 [0m0.682 ms - 721[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.773 ms - -[0m
+[0mGET /favicon.ico [31m500 [0m0.804 ms - 2394[0m
+Error: Failed to lookup view "error" in views directory "/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/views"
+    at EventEmitter.render (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/application.js:579:17)
+    at ServerResponse.render (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/response.js:961:7)
+    at /opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/app.js:70:9
+    at Layer.handle_error (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/index.js:310:13)
+    at /opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/index.js:330:12)
+    at IncomingMessage.next (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/index.js:271:10)
+    at done (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/response.js:956:25)
+    at EventEmitter.render (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/application.js:581:14)
+    at ServerResponse.render (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/response.js:961:7)
+    at /opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/app.js:59:13
+    at Layer.handle_error (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/index.js:310:13)
+    at /opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/index.js:330:12)
+/login Route
+[0mGET /login [36m304 [0m0.684 ms - -[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2018-01-08T05:14:08.094Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true } }
+/ Route else user
+[0mGET /? [36m302 [0m0.836 ms - 56[0m
+/login Route
+[0mGET /login [32m200 [0m0.712 ms - 735[0m
+[0mGET /stylesheets/style.css [32m200 [0m0.814 ms - 410[0m
+[0mGET /favicon.ico [31m500 [0m0.767 ms - 2394[0m
+Error: Failed to lookup view "error" in views directory "/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/views"
+    at EventEmitter.render (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/application.js:579:17)
+    at ServerResponse.render (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/response.js:961:7)
+    at /opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/app.js:70:9
+    at Layer.handle_error (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/index.js:310:13)
+    at /opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/index.js:330:12)
+    at IncomingMessage.next (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/index.js:271:10)
+    at done (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/response.js:956:25)
+    at EventEmitter.render (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/application.js:581:14)
+    at ServerResponse.render (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/response.js:961:7)
+    at /opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/app.js:59:13
+    at Layer.handle_error (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/index.js:310:13)
+    at /opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/index.js:330:12)
+/signup Route
+[0mGET /signup [32m200 [0m0.680 ms - 784[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.436 ms - -[0m
+Begin exports.signup
+after new user exports.signup
+after hashing user exports.signup
+after email user exports.signup
+In exports.signup
+null
+[0mPOST /signup [36m302 [0m3.585 ms - 46[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2018-01-08T05:14:28.729Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true },
+  msg: 'Authenticated as name1',
+  user: '5a2ae4944a073c7255253e26',
+  username: 'name1' }
+/ Route if user
+[0mGET / [32m200 [0m0.943 ms - 784[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.744 ms - -[0m
+[0mGET /javascripts/my_app.js [32m200 [0m0.484 ms - 401[0m
+[0mGET /user/profile [32m200 [0m1.262 ms - 150[0m
+/user Route
+[0mGET /user [32m200 [0m1.255 ms - 1226[0m
+[0mGET /stylesheets/style.css [36m304 [0m2.634 ms - -[0m
+[0mGET /javascripts/my_app.js [36m304 [0m2.773 ms - -[0m
+[0mGET /user/profile [36m304 [0m1.127 ms - -[0m
+[0mPOST /user/update [36m302 [0m3.740 ms - 54[0m
+/user Route
+[0mGET /user [32m200 [0m1.791 ms - 1217[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.661 ms - -[0m
+[0mGET /javascripts/my_app.js [36m304 [0m0.876 ms - -[0m
+[0mGET /user/profile [32m200 [0m1.656 ms - 165[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2018-01-08T05:14:39.895Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true },
+  msg: 'User Updated.',
+  user: '5a2ae4944a073c7255253e26',
+  username: 'name1',
+  color: 'asdf' }
+/ Route if user
+[0mGET / [32m200 [0m1.092 ms - 779[0m
+[0mGET /stylesheets/style.css [36m304 [0m2.858 ms - -[0m
+[0mGET /javascripts/my_app.js [36m304 [0m1.279 ms - -[0m
+[0mGET /user/profile [36m304 [0m1.190 ms - -[0m
+/logout Route
+[0mGET /logout [36m302 [0m0.822 ms - 56[0m
+/login Route
+[0mGET /login [32m200 [0m0.726 ms - 721[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.001 ms - -[0m
+login
+{ _id: 5a2ae4944a073c7255253e26,
+  email: 'asdf@asdf.com',
+  hashed_password: '5sPaWyBmNNfz81htdH/9s2tcZ1dXs4DGpf5cVwxxQ0k=',
+  username: 'name1',
+  __v: 0,
+  color: 'asdf' }
+[0mPOST /login [36m302 [0m1.895 ms - 46[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2018-01-08T05:14:52.414Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true },
+  user: '5a2ae4944a073c7255253e26',
+  username: 'name1',
+  msg: 'Authenticated as name1',
+  color: 'asdf' }
+/ Route if user
+[0mGET / [32m200 [0m0.922 ms - 788[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.449 ms - -[0m
+[0mGET /javascripts/my_app.js [36m304 [0m0.593 ms - -[0m
+[0mGET /user/profile [36m304 [0m1.484 ms - -[0m
+/user Route
+[0mGET /user [36m304 [0m0.748 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.422 ms - -[0m
+[0mGET /javascripts/my_app.js [36m304 [0m1.342 ms - -[0m
+[0mGET /user/profile [36m304 [0m4.030 ms - -[0m
+[0mPOST /user/delete [36m302 [0m2.694 ms - 56[0m
+/login Route
+[0mGET /login [32m200 [0m1.162 ms - 721[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.702 ms - -[0m
+[0mPOST /login [36m302 [0m1.380 ms - 56[0m
+/login Route
+[0mGET /login [32m200 [0m2.925 ms - 736[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.779 ms - -[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2018-01-08T18:26:51.833Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true } }
+/ Route else user
+[0mGET / [36m302 [0m0.739 ms - 56[0m
+/login Route
+[0mGET /login [32m200 [0m0.767 ms - 721[0m
+Error: Failed to lookup view "error" in views directory "/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/views"
+    at EventEmitter.render (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/application.js:579:17)
+    at ServerResponse.render (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/response.js:961:7)
+    at /opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/app.js:70:9
+    at Layer.handle_error (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/index.js:310:13)
+    at /opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/index.js:330:12)
+    at IncomingMessage.next (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/index.js:271:10)
+    at done (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/response.js:956:25)
+    at EventEmitter.render (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/application.js:581:14)
+    at ServerResponse.render (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/response.js:961:7)
+    at /opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/app.js:59:13
+    at Layer.handle_error (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/index.js:310:13)
+    at /opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/index.js:330:12)
+[0mGET /favicon.ico [31m500 [0m1.353 ms - 2394[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2018-01-07T16:01:22.220Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true } }
+/ Route else user
+[0mGET / [36m302 [0m1.104 ms - 56[0m
+/login Route
+[0mGET /login [31m500 [0m1.986 ms - 2394[0m
+Error: Failed to lookup view "error" in views directory "/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/views"
+    at EventEmitter.render (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/application.js:579:17)
+    at ServerResponse.render (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/response.js:961:7)
+    at /opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/app.js:70:9
+    at Layer.handle_error (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/index.js:310:13)
+    at /opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/index.js:330:12)
+    at IncomingMessage.next (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/index.js:271:10)
+    at done (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/response.js:956:25)
+    at EventEmitter.render (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/application.js:581:14)
+    at ServerResponse.render (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/response.js:961:7)
+    at /opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/app.js:59:13
+    at Layer.handle_error (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/index.js:310:13)
+    at /opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/index.js:330:12)
+/login Route
+Error: Failed to lookup view "error" in views directory "/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/views"
+    at EventEmitter.render (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/application.js:579:17)
+    at ServerResponse.render (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/response.js:961:7)
+    at /opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/app.js:70:9
+    at Layer.handle_error (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/index.js:310:13)
+    at /opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/index.js:330:12)
+    at IncomingMessage.next (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/index.js:271:10)
+    at done (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/response.js:956:25)
+    at EventEmitter.render (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/application.js:581:14)
+    at ServerResponse.render (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/response.js:961:7)
+    at /opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/app.js:59:13
+    at Layer.handle_error (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/index.js:310:13)
+    at /opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/index.js:330:12)
+[0mGET /login [31m500 [0m0.948 ms - 2394[0m
+[0mGET /favicon.ico [31m500 [0m0.810 ms - 2394[0m
+Error: Failed to lookup view "error" in views directory "/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/views"
+    at EventEmitter.render (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/application.js:579:17)
+    at ServerResponse.render (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/response.js:961:7)
+    at /opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/app.js:70:9
+    at Layer.handle_error (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/index.js:310:13)
+    at /opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/index.js:330:12)
+    at IncomingMessage.next (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/index.js:271:10)
+    at done (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/response.js:956:25)
+    at EventEmitter.render (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/application.js:581:14)
+    at ServerResponse.render (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/response.js:961:7)
+    at /opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/app.js:59:13
+    at Layer.handle_error (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/index.js:310:13)
+    at /opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/index.js:330:12)
+Error: Failed to lookup view "error" in views directory "/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/views"
+    at EventEmitter.render (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/application.js:579:17)
+    at ServerResponse.render (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/response.js:961:7)
+    at /opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/app.js:70:9
+    at Layer.handle_error (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/index.js:310:13)
+    at /opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/index.js:330:12)
+    at IncomingMessage.next (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/index.js:271:10)
+    at done (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/response.js:956:25)
+    at EventEmitter.render (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/application.js:581:14)
+    at ServerResponse.render (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/response.js:961:7)
+    at /opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/app.js:59:13
+    at Layer.handle_error (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/index.js:310:13)
+    at /opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/index.js:330:12)
+[0mGET /favicon.ico [31m500 [0m0.757 ms - 2394[0m
+/login Route
+Error: Failed to lookup view "error" in views directory "/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/views"
+    at EventEmitter.render (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/application.js:579:17)
+    at ServerResponse.render (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/response.js:961:7)
+    at /opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/app.js:70:9
+    at Layer.handle_error (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/index.js:310:13)
+    at /opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/index.js:330:12)
+    at IncomingMessage.next (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/index.js:271:10)
+    at done (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/response.js:956:25)
+    at EventEmitter.render (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/application.js:581:14)
+    at ServerResponse.render (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/response.js:961:7)
+    at /opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/app.js:59:13
+    at Layer.handle_error (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/index.js:310:13)
+    at /opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/index.js:330:12)
+[0mGET /login [31m500 [0m0.898 ms - 2394[0m
+[0mGET /favicon.ico [31m500 [0m2.601 ms - 2394[0m
+Error: Failed to lookup view "error" in views directory "/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/views"
+    at EventEmitter.render (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/application.js:579:17)
+    at ServerResponse.render (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/response.js:961:7)
+    at /opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/app.js:70:9
+    at Layer.handle_error (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/index.js:310:13)
+    at /opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/index.js:330:12)
+    at IncomingMessage.next (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/index.js:271:10)
+    at done (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/response.js:956:25)
+    at EventEmitter.render (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/application.js:581:14)
+    at ServerResponse.render (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/response.js:961:7)
+    at /opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/app.js:59:13
+    at Layer.handle_error (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/index.js:310:13)
+    at /opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/index.js:330:12)
+/login Route
+Error: Failed to lookup view "error" in views directory "/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/views"
+    at EventEmitter.render (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/application.js:579:17)
+    at ServerResponse.render (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/response.js:961:7)
+    at /opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/app.js:70:9
+    at Layer.handle_error (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/index.js:310:13)
+    at /opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/index.js:330:12)
+    at IncomingMessage.next (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/index.js:271:10)
+    at done (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/response.js:956:25)
+    at EventEmitter.render (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/application.js:581:14)
+    at ServerResponse.render (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/response.js:961:7)
+    at /opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/app.js:59:13
+    at Layer.handle_error (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/index.js:310:13)
+    at /opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/index.js:330:12)
+[0mGET /login [31m500 [0m1.572 ms - 2394[0m
+Error: Failed to lookup view "error" in views directory "/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/views"
+    at EventEmitter.render (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/application.js:579:17)
+    at ServerResponse.render (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/response.js:961:7)
+    at /opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/app.js:70:9
+    at Layer.handle_error (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/index.js:310:13)
+    at /opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/index.js:330:12)
+    at IncomingMessage.next (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/index.js:271:10)
+    at done (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/response.js:956:25)
+    at EventEmitter.render (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/application.js:581:14)
+    at ServerResponse.render (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/response.js:961:7)
+    at /opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/app.js:59:13
+    at Layer.handle_error (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/index.js:310:13)
+    at /opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/index.js:330:12)
+[0mGET /favicon.ico [31m500 [0m0.798 ms - 2394[0m
+Error: Failed to lookup view "error" in views directory "/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/views"
+    at EventEmitter.render (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/application.js:579:17)
+    at ServerResponse.render (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/response.js:961:7)
+    at /opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/app.js:70:9
+    at Layer.handle_error (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/index.js:310:13)
+    at /opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/index.js:330:12)
+    at IncomingMessage.next (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/index.js:271:10)
+    at done (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/response.js:956:25)
+    at EventEmitter.render (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/application.js:581:14)
+    at ServerResponse.render (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/response.js:961:7)
+    at /opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/app.js:59:13
+    at Layer.handle_error (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/index.js:310:13)
+    at /opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/index.js:330:12)
+[0mGET /login.html [31m500 [0m0.766 ms - 2394[0m
+Error: Failed to lookup view "error" in views directory "/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/views"
+    at EventEmitter.render (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/application.js:579:17)
+    at ServerResponse.render (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/response.js:961:7)
+    at /opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/app.js:70:9
+    at Layer.handle_error (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/index.js:310:13)
+    at /opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/index.js:330:12)
+    at IncomingMessage.next (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/index.js:271:10)
+    at done (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/response.js:956:25)
+    at EventEmitter.render (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/application.js:581:14)
+    at ServerResponse.render (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/response.js:961:7)
+    at /opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/app.js:59:13
+    at Layer.handle_error (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/index.js:310:13)
+    at /opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/opt/bitnami/apache2/htdocs/lab-6-authentication-wokazaki/auth/node_modules/express/lib/router/index.js:330:12)
+[0mGET /favicon.ico [31m500 [0m0.810 ms - 2394[0m
